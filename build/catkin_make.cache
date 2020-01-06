@@ -1,0 +1,2 @@
+cv_camera:demos/dnn_rotate:demos/docking:demos/fiducial_follow:demos/move_demo:face_to_face:ledmatrix:mjpeg_server:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim:simple_drive:speech_detect
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+demos/dnn_rotate:demos/docking:demos/fiducial_follow:demos/move_demo:geometry2/geometry2:geometry2/test_tf2:geometry2/tf2:geometry2/tf2_bullet:geometry2/tf2_eigen:geometry2/tf2_geometry_msgs:geometry2/tf2_kdl:geometry2/tf2_msgs:geometry2/tf2_py:geometry2/tf2_ros:geometry2/tf2_sensor_msgs:geometry2/tf2_tools:ros_tutorials/ros_tutorials:ros_tutorials/roscpp_tutorials:ros_tutorials/rospy_tutorials:ros_tutorials/turtlesim
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install_isolated
