@@ -12,7 +12,7 @@ sys.setdefaultencoding("utf-8")
 # port = 5000
 rospy.init_node('pic_cmd_vel')
 pub=rospy.Publisher("sound_shape",String,queue_size=5)
-host = '192.168.43.65'
+host = '192.168.43.66'
 port = 6668
 address = (host, port)
 

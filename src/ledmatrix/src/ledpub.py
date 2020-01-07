@@ -24,7 +24,7 @@ def sendled():
 
 	rospy.init_node('ledmatrix_node')
 def connectsql(id):
-    db = MySQLdb.connect(host="192.168.43.65",user="root", passwd="root1234", db="mcu_robot")
+    db = MySQLdb.connect(host="192.168.43.66",user="root", passwd="root1234", db="mcu_robot")
     cursor = db.cursor()
 
 # 執行 MySQL 查詢指令
@@ -80,7 +80,7 @@ def index():
 		face_face1=[]
 	return "face=%s" %(face_str)
     elif topic!=None:
-	db = MySQLdb.connect(host="192.168.43.65",user="root", passwd="root1234", db="mcu_robot")
+	db = MySQLdb.connect(host="192.168.43.66",user="root", passwd="root1234", db="mcu_robot")
 	cursor = db.cursor()
         topic1="'"+topic+"'"
 # 執行 MySQL 查詢指令
@@ -190,6 +190,6 @@ def index():
 if __name__ == '__main__':
 	try:
 		sendled()
-		app.run(host="192.168.43.66", port=5000, debug=True)
+		app.run(host="192.168.43.65", port=5000, debug=True)
 	except rospy.ROSInterruptExceptton:
 		pass

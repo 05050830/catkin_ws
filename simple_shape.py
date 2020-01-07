@@ -12,7 +12,7 @@ sys.setdefaultencoding("utf-8")
 # port = 5000
 rospy.init_node('pic_cmd_vel')
 
-host = '192.168.43.65'
+host = '192.168.43.66'
 port = 6667
 address = (host, port)
 
